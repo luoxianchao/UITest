@@ -14,9 +14,9 @@ const {getUITestData} = require('./read-xlsx');
     });
     const page = await browser.newPage();
     await page.deleteCookie({
-        name: 'tuan_subject60_onceorder',
-        url: 'https://tuan.autohome.com.cn/subject/60/110100',
-        domain: 'tuan.autohome.com.cn'
+        name: 'cookiename',
+        url: '访问路径',
+        domain: '域名'
     });
     let dataLength = data.length;
     for (let j = 0; j < dataLength; j++) {
