@@ -1,0 +1,15 @@
+{
+  "name": "UiTest",
+  "version": "0.0.1",
+  "description": "UI auto testing",
+  "dependencies": {
+    "node-xlsx": "^0.15.0",
+    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0"
+  },
+  "repository": "github.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/main/index.js"
+  }
+}
